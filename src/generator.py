@@ -7,7 +7,7 @@ class ReadmeGenerator:
 
     def generate(self, markdown):
         try:
-            with open("README.md", "w", encoding="utf-8") as file:
+            with open("GENERATED_README.md", "w", encoding="utf-8") as file:
                 file.write(markdown)
 
             console.print("[bold green]README.md successfully generated![/bold green]")
